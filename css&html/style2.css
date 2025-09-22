@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    gap: 25px;
+    margin: 25px 250px;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.container img {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    /* box-sizing: border-box; */
+
+}
+
+.iframe-swap {
+    margin: 10px 0;
+    border: 1px;
+    overflow: hidden;
+    border-radius: 100px 0 8px;
+    border: 14px solid blanchedalmond
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    max-width: 1500px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    gap: 20px;
+    background-color: bisque;
+    padding: 35px;
+    border-radius: 20px;
+
+}
+
+.grid img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+
+}
